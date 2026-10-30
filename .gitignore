@@ -1,0 +1,43 @@
+# === Docs privés (ne pas pousser sur GitHub) ===
+EXPLICATION_PROJET_ANESTHESIAGUARD.md
+guide_integration.txt
+
+# === Dépendances / builds ===
+node_modules/
+dist/
+dist-ssr/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+*.local
+
+# === Lourds / binaires (trop gros pour GitHub) ===
+ffmpeg-*.7z
+ffmpeg-*/
+*.gguf
+*.fst
+*.mdl
+*.arpa
+*.arpa.gz
+
+# Modèles ASR LinTO / Vosk
+asr-backend/linto-asr-ar-tn-0.1/vosk-model/
+asr-backend/linto-asr-ar-tn-0.1/vosk-model.zip
+asr-backend/linto-asr-ar-tn-0.1/android-model.zip
+asr-backend/linto-asr-ar-tn-0.1/lm_TN_CS.arpa.gz
+asr-backend/linto-asr-ar-tn-0.1/.git/
+asr-backend/uploads/
+
+# Audios de test (optionnel — décommente si tu ne veux pas les pousser)
+# audio_files/
+
+# === IDE / OS ===
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
